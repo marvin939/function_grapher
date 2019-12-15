@@ -12,6 +12,7 @@ Current issues:
 The program is very incomplete but does the job I've created it to (visualize functions).
 
 Future features I think would be nice:
+* Connect plots with lines
 * Draw axis labels
 * Function parser
 * GUI for adding additional functions and their colour
