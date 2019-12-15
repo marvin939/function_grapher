@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="function_grapher" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/function_grapher" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/libraries/allegro-i686-w64-mingw32-gcc-7.4.0-posix-dwarf-static-5.2.5.1/allegro/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/libraries/allegro-i686-w64-mingw32-gcc-7.4.0-posix-dwarf-static-5.2.5.1/allegro/lib/liballegro_monolith-debug.dll.a" />
+					<Add directory="C:/libraries/allegro-i686-w64-mingw32-gcc-7.4.0-posix-dwarf-static-5.2.5.1/allegro/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/function_grapher" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/libraries/allegro-i686-w64-mingw32-gcc-7.4.0-posix-dwarf-static-5.2.5.1/allegro/lib/liballegro_monolith.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c11" />
+			<Add directory="C:/libraries/allegro-i686-w64-mingw32-gcc-7.4.0-posix-dwarf-static-5.2.5.1/allegro/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-O3" />
+			<Add directory="C:/libraries/allegro-i686-w64-mingw32-gcc-7.4.0-posix-dwarf-static-5.2.5.1/allegro/lib" />
+		</Linker>
+		<Unit filename="camera.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera.h" />
+		<Unit filename="globals.h" />
+		<Unit filename="includeall.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix33.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrix33.h" />
+		<Unit filename="start.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="start.h" />
+		<Unit filename="test_matrix33.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_matrix33.h" />
+		<Unit filename="test_vec3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_vec3.h" />
+		<Unit filename="vec3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vec3.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
