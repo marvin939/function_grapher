@@ -86,13 +86,12 @@ int start_runStuff( int argc, char* args[] )
         camera_update(&cam);
         camera_drawGrid(&cam);
         camera_drawAxes(&cam);
-//        camera_drawFunction(&cam, fabs);
-//        camera_drawFunction(&cam, sin);
-//        camera_drawFunction(&cam, cos);
-//        camera_drawFunction(&cam, upsideDownParabola);
-//        camera_drawFunction(&cam, minusThree);
-//        camera_drawFunction(&cam, hyperbola);
-        camera_drawFunction(&cam, vertical);
+        camera_drawFunction(&cam, fabs);
+        camera_drawFunction(&cam, sin);
+        camera_drawFunction(&cam, cos);
+        camera_drawFunction(&cam, upsideDownParabola);
+        camera_drawFunction(&cam, minusThree);
+        camera_drawFunction(&cam, hyperbola);
 
         //Update screen
         al_flip_display();

@@ -3,6 +3,9 @@ A simple function grapher/plotter with zoom/pan features.
 
 I made this because I have trouble graphing and visualizing functions, a process which often requires repeated calculation of the result of functions and plotting them. Additional features include drawing a grid and axis.
 
+Uses Allegro 5; Programmed in C99 with CodeBlocks.
+![alt text](preview.png "Graph of abs, sin, cos, -x^2, -3 and 1/x.")
+
 Current issues:
 * Zoom feature zooms relative to the location of the zero vector on the plane, rather than the center of the current view of the function.
 

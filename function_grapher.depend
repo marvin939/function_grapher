@@ -709,3 +709,61 @@
 1553403796 c:\libraries\allegro-i686-w64-mingw32-gcc-7.4.0-posix-dwarf-static-5.2.5.1\allegro\include\allegro5\allegro_primitives.h
 	<allegro5/allegro.h>
 
+1576199421 source:c:\users\marvin\desktop\fngrapher\function_grapher\camera.c
+	"camera.h"
+	"globals.h"
+
+1576197817 c:\users\marvin\desktop\fngrapher\function_grapher\camera.h
+	"includeall.h"
+	"vec3.h"
+	"matrix33.h"
+
+1576057065 c:\users\marvin\desktop\fngrapher\function_grapher\includeall.h
+	"camera.h"
+	"matrix33.h"
+	"vec3.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<math.h>
+	<stdbool.h>
+	<stdio.h>
+
+1575939583 c:\users\marvin\desktop\fngrapher\function_grapher\matrix33.h
+	"vec3.h"
+
+1575963317 c:\users\marvin\desktop\fngrapher\function_grapher\vec3.h
+
+1576294258 c:\users\marvin\desktop\fngrapher\function_grapher\globals.h
+	<allegro5/allegro.h>
+
+1576048871 source:c:\users\marvin\desktop\fngrapher\function_grapher\main.c
+	<stdio.h>
+	<stdlib.h>
+	"test_vec3.h"
+	"test_matrix33.h"
+	"start.h"
+
+1575964943 c:\users\marvin\desktop\fngrapher\function_grapher\test_vec3.h
+
+1575950329 c:\users\marvin\desktop\fngrapher\function_grapher\test_matrix33.h
+	<assert.h>
+
+1575968015 c:\users\marvin\desktop\fngrapher\function_grapher\start.h
+
+1575939650 source:c:\users\marvin\desktop\fngrapher\function_grapher\matrix33.c
+	"matrix33.h"
+
+1575950343 source:c:\users\marvin\desktop\fngrapher\function_grapher\test_matrix33.c
+	"test_matrix33.h"
+	"matrix33.h"
+	<stdio.h>
+
+1575963375 source:c:\users\marvin\desktop\fngrapher\function_grapher\test_vec3.c
+	<assert.h>
+	<stdio.h>
+	"vec3.h"
+	"test_vec3.h"
+
+1575963418 source:c:\users\marvin\desktop\fngrapher\function_grapher\vec3.c
+	"vec3.h"
+
